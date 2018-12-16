@@ -3,7 +3,7 @@ function data_equation() {
   var b = document.data.b.value;
   var c = document.data.c.value;
   var real = document.getElementById("rozvjazok");
-    var d = b * b - 4 * a * c; // визначаю дискримінант
+  var d = b * b - 4 * a * c; // визначаю дискримінант
   var firstX;
   var secondX;
   var rezultat;
@@ -13,9 +13,9 @@ function data_equation() {
   }
   else {
     if (d == 0) {
-      rezultat = "Корінь один (два однакових корені), кратності 2<br>x<sub>1</sub> = x<sub>2</sub> = ";
+      
       firstX = secondX = -b / (2 * a);
-      rezultat += firstX;
+     rezultat = "Корінь один (два однакових корені), <br>x<sub>1</sub> = x<sub>2</sub> = "+ firstX;
     }
     else {
       firstX = -b / (2 * a) - Math.sqrt(d) / (2 * a);
