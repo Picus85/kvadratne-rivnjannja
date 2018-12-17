@@ -1,4 +1,4 @@
-function data_equation() {
+function data_run() {
   var a = document.data.a.value;
   var b = document.data.b.value;
   var c = document.data.c.value;
@@ -13,9 +13,9 @@ function data_equation() {
   }
   else {
     if (d == 0) {
-      
+
       firstX = secondX = -b / (2 * a);
-     rezultat = "Корінь один (два однакових корені), <br>x<sub>1</sub> = x<sub>2</sub> = "+ firstX;
+      rezultat = "Корінь один (два однакових корені), <br>x<sub>1</sub> = x<sub>2</sub> = " + firstX;
     }
     else {
       firstX = -b / (2 * a) - Math.sqrt(d) / (2 * a);
