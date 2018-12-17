@@ -1,4 +1,4 @@
-function data_equation() {
+function data_run() {
   var a = document.data.a.value;
   var b = document.data.b.value;
   var c = document.data.c.value;
